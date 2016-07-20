@@ -37,74 +37,71 @@
         text-align: center;
     }
 
-    nav {
-        width: 90%;
-        clear:both;
-    }
-    nav li{
-        display: block;
-        padding: 0;
-        margin: 0;
-        min-width:100%;
-        float:left;
-        clear:both;
-        line-height: 0.6em;
+        nav {
+	        width: 90%;
+	        clear:both;
+	    }
+	    nav li{
+	        display: block;
+	        padding: 0;
+	        margin: 0;
+	        width:100%;
+	        float:left;
+	        clear:both;
+	        line-height: 0.6em;
 
 
-    }
+	    }
 
-    li a, .dropbtn {
-        min-width:100%;
-        display: block;
-        color: white;
-        text-align: left;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 0.9em;
-   }
+	    li a, .dropbtn {
+	        width:100%;
+	        display: block;
+	        color: white;
+	        text-align: left;
+	        padding: 14px 16px;
+	        text-decoration: none;
+	        font-size: 0.9em;
+	   }
 
-   li a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
-   }
+	li a:hover, .dropdown:hover .dropbtn {
+	    background-color: #000;
+	}
 
-li.dropdown {
-    display: block;
+	.dropdown-content {
+	    margin-left: 25%;
+	    background-color: rgb(255,255,255);
+	    width: 56%;
+	    box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.4);
+	}
 
-}
+	.dropdown-content a {
+	    color: black;
+	    padding: 10px 0px;
+	    text-decoration: none;
+	    display: block;
+	    text-align: left;
+	    align-content: left;
+	    width:60%;
+	    margin-left: 2%;
 
-.dropdown-content {
-    display: none;
-    margin-left: 20%;
-    background-color: rgb(255,255,255);
-    width: 60%;
-    box-shadow: 0px 16px 30px 0px rgba(0,0,0,0.4);
-}
+	}
 
-.dropdown-content a {
-    color: black;
-    padding: 10px 0px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    align-content: left;
-    margin-left: 2%;
+	.dropdown-content a:hover {
+	    margin:0% 2% 0% 2%;
+	    text-align: left;
+	    background-color: cornsilk;
+	    overflow: hidden;
+	}
 
-}
+	 a:hover {
 
-.dropdown-content a:hover {
-    display: block;
-    width: 80%;
-    background-color: rgb(158,215,215);
-    padding:10px 0px;
-    border:0;
-    margin:0;
-    text-align: left;
-}
+	    min-height: 98%;
+	    width: 98%;
+	 }
 
-.dropdown:hover .dropdown-content {
-    max-width: 80%;
-    padding:10px 0px;
-    display: block;
+	.dropdown:hover .dropdown-content {
+	    padding:10px 0px;
+	    display: block;
 }
 
 section.intro {
