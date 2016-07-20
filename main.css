@@ -1,0 +1,196 @@
+    html{
+        postion:relative;
+    }
+    
+    body {
+        margin: 10px 5% 10px 5%;
+        padding: 10px;
+        min-width: 90%;
+        float: left;
+        background-color: #f1f1f1;
+    }
+
+    header {
+        width: inherit;
+        min-height: 100px;
+        max-height: auto;
+        background-color: rgb(125,125,125);
+         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
+        background: #e2e2e2; /* Old browsers */
+        background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+
+        margin-bottom: 10px;
+        border-top: 10px solid #a2b2c2;
+        border-bottom: 13px solid #f1f1f1;
+        border-left: 3px solid white;
+        border-right: 3px solid white;
+
+    }
+    header h1 {
+        max-height: auto;
+        line-height: 1em;
+        font-family: impact;
+        font-size: 4.0em;
+        color: purple;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+     header h2{
+        font-family: Comic sans MS;
+        line-height: 1em;
+        font-size: 1.2em;
+        color: purple;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    nav {
+        max-width:inherit;
+        min-height: 30px;
+        max-height: auto;
+        border-left: 3px solid #333;
+    }
+    
+   nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+   }
+
+   nav li {
+        font-weight: bold;
+        float: left;
+        margin: 1px; 
+        border-right: 3px solid grey;   
+        float: left;
+
+   }
+
+   li a, .dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   }
+
+   li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+   }
+
+li.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: hotpink}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+    
+
+div {
+    width: inherit;
+    background-color: rgb(250,225,236);
+    float: left;
+    clear: left;
+    margin-bottom: 20px;
+}    
+
+section {
+    width: inherit;
+    background-color: rgb(240,255,248);
+    float: left;
+    clear: left;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}  
+section.intro {
+    max-width: 54%;
+    padding: 5%;
+    font-family: Arial;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    text-align: justify;
+    height: auto;
+    float: left;
+    border-left: 10px solid grey;
+    margin-top: 1%;
+}
+
+section h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Comic Sans MS;
+}    
+
+
+aside h3 {
+    width: inherit;
+    max-width: 33%;
+    min-width: 33%;
+    margin-top: 1%;
+    background-color: #333;
+    float: right;
+    border: 1px solid grey;
+    font-family: Comic sans MS;
+    text-align: center;
+    color:lightcoral;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+aside.asidebox_text {
+    padding: 0;
+    min-width: 33%;
+    max-width: 33%;
+    height: 200px;
+    background-color: #f1f1f1;
+    float: right;
+    border: 1px solid grey;
+    font-family: Arial;
+    color:#333;
+    font-size: 14px;
+    overflow: scroll;
+}
+aside ul {
+    list-style: square;
+}
+
+aside.asidebox3_text {
+    padding: 0;
+    min-width: 33%;
+    max-width: 33%;
+    height: 200px;
+    background-color: #f1f1f1;
+    float: right;
+    border: 1px solid grey;
+    font-family: Arial;
+    color:#333;
+    font-size: 14px;
+    overflow: scroll;
+
+}

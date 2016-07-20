@@ -1,47 +1,27 @@
-body {
-    background-color: #fff;
-    background-image: url("img_tree.png");
-    background-attachment: fixed;
-    background-position: right top;
-    background-repeat: no-repeat;
-    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
-h1 {
-    color: maroon;
-    margin-left: 40px;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
-p {
-    border: 5x solid red;
+li a:hover:not(.active) {
+    background-color: #111;
 }
 
-div {
-    background-color: antiquewhite;
+.active {
+    background-color: #4CAF50;
 }
-
-p.dotted {
-    border-style: dotted; 
-    border-width: 3px; 
-    border-color: aqua;
-    
-}
-
-p.dashed {
-    border: 5x solid red;
-}
-
-p.solid {border-style: solid;border-width: 5px; border-color: aqua}
-p.double {border-style: double; border-color: aqua}
-p.groove {border-style: groove;}
-p.ridge {border-style: ridge;}
-p.inset {border-style: inset;border-width: 10px}
-p.outset {border-style: outset;border-width: 10px}
-p.none {border-style: none;}
-p.hidden {border-style: hidden;}
-p.mix {border-style: dotted dashed solid double;}
-
-
-
-
