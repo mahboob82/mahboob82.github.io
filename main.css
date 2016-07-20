@@ -1,39 +1,41 @@
-    html{
+aside, article, section, header, footer, nav{
+    display: block;
+}
+html{
         postion:relative;
-    }
+}
     
     body {
         margin: 10px 5% 10px 5%;
         padding: 10px;
         min-width: 90%;
         float: left;
-        background-color: #f1f1f1;
+        background-color: lightgoldenrodyellow;
     }
 
     header {
         width: inherit;
         min-height: 100px;
-        max-height: auto;
+        max-height: 100px;
         background-color: rgb(125,125,125);
          /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e2e2e2+0,dbdbdb+50,d1d1d1+51,fefefe+100;Grey+Gloss+%231 */
         background: #e2e2e2; /* Old browsers */
         background: -moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 50%, #d1d1d1 51%, #fefefe 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* Chrome10-25,Safari5.1-6 */
+        background: -webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 50%,#d1d1d1 51%,#fefefe 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
 
-        margin-bottom: 10px;
-        border-top: 10px solid #a2b2c2;
-        border-bottom: 13px solid #f1f1f1;
-        border-left: 3px solid white;
-        border-right: 3px solid white;
+        margin-bottom: 15px;
+        border-top: 10px solid white;
+        border-bottom: 10px solid silver;
+        border-left: 10px solid white;
+        border-right: 10px solid silver;
 
     }
     header h1 {
-        max-height: auto;
         line-height: 1em;
         font-family: impact;
-        font-size: 4.0em;
+        font-size: 3.0em;
         color: purple;
         overflow: hidden;
         text-align: center;
