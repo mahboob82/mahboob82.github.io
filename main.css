@@ -57,6 +57,7 @@ html{
         max-width:inherit;
         min-height: 30px;
         max-height: auto;
+        min-width: 100%;
         border-left: 3px solid #333;
     }
     
@@ -461,6 +462,7 @@ html{
 
     nav select{
         display: none;
+        
     }
 
    li a, .dropbtn {
@@ -498,7 +500,7 @@ html{
         
     }
 
-    .dropdown-content a:hover {background-color: rgb(158,215,215)}
+    .dropdown-content a:hover {background-color: rgb(158,215,215);}
 
     .dropdown:hover .dropdown-content {
         display: block;
